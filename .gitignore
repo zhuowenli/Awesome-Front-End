@@ -1,6 +1,9 @@
+## Mac
+.DS_Store
+
+## sass
 .sass-cache
 *.css.map
-
 
 ## grunt
 node_modules

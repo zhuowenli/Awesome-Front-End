@@ -8,7 +8,7 @@ $ npm install
 $ grunt
 ```
 
-## 教程：
+## 教程
 
 1. 执行`npm init`，按照提示创建`package.json`文件。
 2. 执行`npm install grunt --save-dev`，下载grunt依赖。
