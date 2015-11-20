@@ -1,4 +1,4 @@
-# 新手上路
+# Grunt入门教程
 
 Grunt和Grunt的插件都是通过[Node.js](http://nodejs.org/)的包管理器[npm](https://npmjs.org/)来安装和管理的。
 
@@ -41,7 +41,7 @@ Grunt和Grunt的插件都是通过[Node.js](http://nodejs.org/)的包管理器[n
 + [npm init](https://npmjs.org/doc/init.html)命令会自动创建一个基本的`package.json`文件。
 
 + 从下面的例子开始并根据[规范](https://npmjs.org/doc/json.html)来按需扩展。
-*****
+    ```
     {
         "name": "my-project-name", // 项目名称
         "version": "0.1.0", // 项目版本
@@ -52,6 +52,7 @@ Grunt和Grunt的插件都是通过[Node.js](http://nodejs.org/)的包管理器[n
             "grunt-contrib-uglify": "~0.2.2"
         }
     }
+    ```
 
 > 原文中注释仅作说明，使用时请自行检查编辑。其他地方如有雷同，参考这条提示。
 

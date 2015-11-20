@@ -1,0 +1,23 @@
+{
+  "name": "grunt-level-1",
+  "version": "1.0.0",
+  "description": "Grunt tutorials level 1",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhuowenli/Front-End-Architecture/tree/master/demo/grunt/level-1"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "file": "index",
+  "author": "卓文理",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.10.1"
+  }
+}

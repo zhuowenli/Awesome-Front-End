@@ -1,2 +1,8 @@
 .sass-cache
 *.css.map
+
+
+## grunt
+node_modules
+
+**/build/
