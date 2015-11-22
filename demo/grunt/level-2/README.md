@@ -16,7 +16,7 @@
 
 1. 执行`npm init`，按照提示创建`package.json`文件。
 2. 执行`npm install grunt --save-dev`，下载grunt依赖。
-3. 执行下列代码，下载相应插件。
+3. 依次执行下列代码，下载相应插件。
 
 	```
 	$ npm install grunt-contrib-uglify --save-dev

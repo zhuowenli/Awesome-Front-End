@@ -15,7 +15,7 @@
 
 1. 执行`npm init`，按照提示创建`package.json`文件。
 2. 执行`npm install grunt --save-dev`，下载grunt依赖。
-3. 执行下列代码，下载相应插件。
+3. 依次执行下列代码，下载相应插件。
 
 	```
 	$ npm install grunt-contrib-uglify --save-dev
@@ -53,3 +53,13 @@
 运行grunt命令，控制台提示watch已经开始监听。当我们在src文件里面进行保存时，watch插件将会检测到代码发生变化，然后自动执行`uglify`、`jshint`这两个命令。
 
 此时要想停止，在终端按ctrl + c即可。
+
+## 相关资料
+
+- grunt中文网 [http://www.gruntjs.net/](http://www.gruntjs.net/)
+- github-grunt项目 [https://github.com/gruntjs](https://github.com/gruntjs)
+
+## 总结
+
+至此，该入门教程终结。 相信大家已经掌握了Grunt的精髓了吧！发挥你的想象以及创造力，灵活应用各个插件来编写并维护利于自己业务场景的开发环境吧！(｡･ω･｡)
+
