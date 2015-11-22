@@ -1,14 +1,14 @@
 {
-  "name": "grunt-level-2",
+  "name": "grunt-level-3",
   "version": "1.0.0",
-  "description": "Grunt tutorials level 2",
+  "description": "Grunt tutorials level 3",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhuowenli/Front-End-Architecture/tree/master/demo/grunt/level-2"
+    "url": "https://github.com/zhuowenli/Front-End-Architecture/tree/master/demo/grunt/level-3"
   },
   "keywords": [
     "grunt"
