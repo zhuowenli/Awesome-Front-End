@@ -1,0 +1,22 @@
+{
+  "name": "gulp-level-1",
+  "version": "1.0.0",
+  "description": "Gulp tutorials level 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhuowenli/Front-End-Architecture/tree/master/demo/gulp/level-1"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "卓文理",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.5.1"
+  }
+}
