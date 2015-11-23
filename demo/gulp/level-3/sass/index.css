@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/**
+ * @author: 卓文理
+ * @email : 531840344@qq.com
+ */
+html {
+  margin: 0;
+  font-size: 16px; }
+
+h1 {
+  color: #f00;
+  font-size: 2rem; }

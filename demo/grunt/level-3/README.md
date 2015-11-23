@@ -18,9 +18,7 @@
 3. 依次执行下列代码，下载相应插件。
 
 	```
-	$ npm install grunt-contrib-uglify --save-dev
-	$ npm install grunt-contrib-jshint --save-dev
-	$ npm install grunt-contrib-watch --save-dev
+	$ npm install grunt-contrib-uglify grunt-contrib-watch grunt-contrib-jshint --save-dev
 	```
 
 4. 创建并编辑`Gruntfile.js`文件。
@@ -32,7 +30,7 @@
 在前面的插件中，每次执行插件功能，都得执行一遍`grunt`命令，这样的操作非常繁琐，说好的**自动化**呢？别着急，接下来就解决这个问题——通过watch插件解决这个问题。
 
 配置watch将会监控哪些文件发生变化，以及这些文件一旦变化，要立即执行哪些插件功能。如下，watch将监控src文件夹下所有js文件的变化，一旦变化，则立即执行jshint和uglify两个插件的功能。
-	
+
 	// 配置信息
 	watch: {
     	build: {
@@ -43,7 +41,7 @@
     		}
     	}
     }
-	
+
 	// 加载插件
     grunt.loadNpmTasks('grunt-contrib-watch');
 
