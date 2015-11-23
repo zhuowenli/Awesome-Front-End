@@ -21,4 +21,4 @@
 2. 执行`npm install gulp --save-dev`，下载gulp依赖。
 3. 执行`npm install gulp-uglify --save-dev`，下载gulp-uglify这个代码压缩插件。
 4. 创建并编辑`gulpfile.js`文件。
-5. 执行`gulp uglify`或者`gulp`，查看效果。（当执行`gulp`或者`gulp default`的时候，将会调用default任务队列里的所有任务）
+5. 执行`gulp jsmin`或者`gulp`，查看效果。（当执行`gulp`或者`gulp default`的时候，将会调用default任务队列里的所有任务）
