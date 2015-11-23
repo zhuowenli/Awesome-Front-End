@@ -1,0 +1,25 @@
+{
+  "name": "webpack-level-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhuowenli/Front-End-Architecture/tree/master/demo/webpack/level-1"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "卓文理",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.23.0",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.8"
+  }
+}
