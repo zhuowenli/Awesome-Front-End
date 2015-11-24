@@ -4,7 +4,7 @@
 
 ## 必备知识
 
-- [包管理](#包管理)
+- [包管理工具](#包管理工具)
     - [npm](#npm)
     - [bower](#bower)
 - [构建工具](#构建工具)
@@ -12,11 +12,15 @@
     - [gulp](#gulp)
     - [webpack](#webpack)
 
-### 包管理
+### 包管理工具
 
-#### npm
-#### bower
+#### [npm](http://npmjs.org)
 
+
+
+#### [bower](http://bower.io/)
+
+Bower是一个类似于npm的包管理器，它可用于搜索、安装和卸载如JavaScript、HTML、CSS之类的网络资源。但不同的是，Bower主要针对前端，并且直接从Github查找需要的库下载到本地缓存。
 
 ### 构建工具
 为何要用构建工具？
