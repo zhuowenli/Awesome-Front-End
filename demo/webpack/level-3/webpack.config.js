@@ -15,7 +15,7 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: /\.(js|jsx)$/,           loader: 'babel!jsx?harmony' }, // eslint-loader
+            { test: /\.jsx$/,                loader: 'jsx?harmony'},
             { test: /\.(sass|scss)$/,        loader: 'style!css!sass' },
             { test: /\.css$/,                loader: ExtractTextPlugin.extract("style-loader", "css-loader") },
             { test: /\.(woff|ttf|eot|svg)$/, loader: 'url?limit=8192' }, // <=8k 转化为 base64

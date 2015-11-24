@@ -48,7 +48,7 @@ Webpack将所有静态资源都认为是模块，比如JavaScript，CSS，LESS�
 ```js
 module: {
     loaders: [
-        { test: /\.(js|jsx)$/,           loader: 'babel!jsx?harmony' },
+        { test: /\.(js|jsx)$/,           loader: 'jsx?harmony' },
         { test: /\.(sass|scss)$/,        loader: 'style!css!sass' },
         { test: /\.css$/,                loader: ExtractTextPlugin.extract("style-loader", "css-loader") },
         { test: /\.(woff|ttf|eot|svg)$/, loader: 'url?limit=8192' }, // <=8k 转化为 base64
