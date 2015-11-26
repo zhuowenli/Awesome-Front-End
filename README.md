@@ -16,6 +16,9 @@
 
 #### [npm](http://npmjs.org)
 
+npm 是 Node.js 的模块依赖管理工具。作为开发者使用的工具，主要解决开发 Node.js 时会遇到的问题。如同 RubyGems 对于 Ruby 开发者和 Maven 对于 Java 开发者的重要性，npm 对与 Node.js 的开发者和社区的重要性不言而喻。
+
+NPM的出现是为了在CommonJS规范的基础上，实现解决包的安装卸载，依赖管理，版本管理等问题。
 
 
 #### [bower](http://bower.io/)
